@@ -10,7 +10,6 @@ int main()
     while(num>0)
     {
         int rem=num%2;
-        printf("%d",rem);
         bnum=std::to_string(rem)+bnum;
         num=num/2;
     }
