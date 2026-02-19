@@ -36,6 +36,7 @@ class perfect_number
 };
 int main()
 {
+    int n;
     perfect_number p;
     p.get_data();
     p.display();

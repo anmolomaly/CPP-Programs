@@ -12,7 +12,7 @@ class sum
     }
     void cal()
     {
-        for(int i=2;i<a;i++)
+        for(int i=2;i<=a;i=i+2)
         {
             sum=sum+i;
         }
