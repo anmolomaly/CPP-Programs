@@ -33,7 +33,7 @@ class inventory
 int main()
 {
     int n;
-    cout<<"Enter the number of items: ";   
+    cout<<"Enter the number of items: ";    
     cin>>n; 
     i.getdata(n);
     i.display(n);
