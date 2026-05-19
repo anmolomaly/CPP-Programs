@@ -8,7 +8,6 @@ int main() {
 
     for (int i = 0; i < n; i++) {
         for (int j = 0; j < n; j++) {
-            // Alternate stars and spaces
             if ((i + j) % 2 == 0)
                 cout << "* ";
             else
